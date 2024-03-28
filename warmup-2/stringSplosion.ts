@@ -4,11 +4,7 @@ Given a non-empty string like "Code" return a string like "CCoCodCode".
 
 
 function stringSplosion(str: string): string {
-    let result = '';
-    for(let i = 0; i <= str.length; i++) {
-        result += str.substring(0, i);
-    }
-    return result;
+   return '';
 }
 
 console.log(stringSplosion('Code')) // CCoCodCode

@@ -4,6 +4,5 @@ so "cat" yields "tcatt". The original string will be length 1 or more.*/
 
 
 function backAround(str: string): string {
-    const lastChar = str[str.length - 1];
-    return lastChar + str + lastChar;
+    return ''
 }

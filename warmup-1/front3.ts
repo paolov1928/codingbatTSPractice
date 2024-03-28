@@ -5,8 +5,5 @@ Return a new string which is 3 copies of the front.*/
 
 
 function front3(str: string): string {
-    if (str.length < 3) {
-        return str.repeat(3);
-    }
-    return str.substring(0, 3).repeat((3));
+     return ''
 }

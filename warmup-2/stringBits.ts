@@ -5,25 +5,11 @@ return a new string made of every other char starting with the first, so "Hello"
 
 
 function stringBits(str: string): string {
-    let result = '';
-
-    for(let i = 0; i < str.length; i++) {
-        if(i % 2 == 0) {
-            result += str[i];
-        }
-    }
-
-    return result;
+    return '';
 }
 
 function stringBits2(str: string): string {
-    let result = '';
-
-    for(let i = 0; i < str.length; i +=2) {
-        result += str[i];
-    }
-
-    return result;
+    return '';
 }
 
 console.log(stringBits('Hello')) // "Hlo"

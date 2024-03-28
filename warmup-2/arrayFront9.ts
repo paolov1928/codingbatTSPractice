@@ -5,9 +5,8 @@ The array length may be less than 4.
 
 
 function arrayFront9(nums: number[]): boolean {
-    const searchNumber = 9;
-
-    return !!nums.slice(0, 4).find(n => n === 9);
+    
+    return true;
 }
 
 console.log(arrayFront9([1, 2, 9, 3, 4])) //true

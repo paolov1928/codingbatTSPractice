@@ -5,25 +5,10 @@ The "yak" strings will not overlap.*/
 
 
 function stringYak(str: string): string {
-    let result = '';
-
-    for(let i = 0; i < str.length;) {
-        if(str[i] === 'y' && str[i+2] === 'k') {
-            i +=3;
-        } else {
-            result += str[i];
-            i++;
-        }
-    }
-
-    return result;
+    return '';
 
 }
 
 function stringYak_2(str: string): string {
-    const unluckyString = 'yak';
-
-    if(!str.includes(unluckyString)) return str;
-
-    return str.replace(unluckyString, '');
+    return '';
 }
