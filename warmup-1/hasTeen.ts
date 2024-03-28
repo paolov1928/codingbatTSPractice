@@ -4,5 +4,5 @@ Given 3 int values, return true if 1 or more of them are teen.*/
 
 
 function hasTeen(a: number, b: number, c: number): boolean {
-    return ((a <= 19 && a >= 13) || (b <= 19 && b >= 13) || (c <= 19 && c >= 13));
+     return true
 }

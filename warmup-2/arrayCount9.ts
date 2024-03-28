@@ -3,18 +3,11 @@ Given an array of ints, return the number of 9's in the array.
 */
 
 function arrayCount9(nums: number[] ): number {
-    return nums.filter(n => n === 9).length;
+    return 1;
 }
 
 function arrayCount9_2(nums: number[] ): number {
-    let counter = 0;
-    for(let i = 0; i < nums.length; i++) {
-        if(nums[i] === 9) {
-            counter++;
-        }
-    }
-
-    return counter;
+    return 1;
 }
 
 

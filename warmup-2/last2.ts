@@ -5,19 +5,8 @@ appears in the string and also as the last 2 chars of the string, so "hixxxhi" y
 */
 
 function last2(str: string): number {
-    if(str.length <=2) return 0;
 
-    let counter = 0;
-    const strToCompare = str.substring(str.length-2, str.length);
-
-    for(let i = 0; i < str.length-2; i++) {
-        if(str.substring(i, i+2) === strToCompare) {
-
-            counter++;
-        }
-    }
-
-    return counter;
+    return 1;
 }
 
 console.log(last2('hixxhi')) //1

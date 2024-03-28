@@ -1,2 +1,38 @@
 .idea/
 
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore build output
+dist/
+
+# Ignore any local development configuration files
+*.local.json
+
+# Ignore any log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn lockfile
+yarn.lock
+
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore any IDE-specific files or directories
+.idea/
+*.iml
+
+# Ignore OS-specific files
+Thumbs.db
