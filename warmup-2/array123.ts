@@ -22,3 +22,11 @@ export function array123_2(nums: number[]): boolean {
   }
   return false;
 }
+
+// LOL the coding optimizer I designed worked!
+
+export function array123_Optimized(nums: number[]): boolean {
+  const has123Sequence = nums.join('').includes('123');
+
+  return has123Sequence;
+}
